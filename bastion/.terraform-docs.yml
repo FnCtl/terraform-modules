@@ -1,0 +1,14 @@
+formatter: markdown document
+header-from: inputs.tf
+sections:
+  show-all: true
+  hide: ["requirements"]
+sort:
+  enabled: true
+  by: ["required"]
+settings:
+  color: true
+  escape: false
+  sensitive: true
+  required: true
+  indent: 2

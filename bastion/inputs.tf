@@ -151,6 +151,11 @@ variable "hostname" {
   default     = "bastion"
 }
 
+variable "domain" {
+  description = "domain to give the built droplet host"
+  default     = "example.com"
+}
+
 variable "digitalocean_region" {
   description = "region to deploy into"
   default     = "nyc3"

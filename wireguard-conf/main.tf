@@ -193,7 +193,7 @@ PrivateKey=CHANGE_ME
 PublicKey=${var.public_key}
 PresharedKey=CHANGEME
 AllowedIPs=${var.ipv4_address},${var.ipv6_address},0.0.0.0/0,::/0
-Endpoint=${digitalocean_floating_ip.main.ip_address}:${var.port}
+Endpoint=${var.hostname}.${var.domain}:${var.port}
 # PersistentKeepAlive=60
 EOF
 }

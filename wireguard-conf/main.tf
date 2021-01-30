@@ -199,5 +199,5 @@ EOF
 }
 
 output "sha1" {
-  value = sha1(data.template_cloudinit_config.config.rendered)
+  value = sha1(data.template_file.config.rendered)
 }
